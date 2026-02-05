@@ -101,6 +101,7 @@
             
 			if (size > ARROW_THRESHOLD) {
 				// Desenha seta apontando para o cursor
+				// posso colcoar +180 apra formal uma expiral
 				const angle = Math.atan2(dy, dx);
 				drawArrow(arrow.x, arrow.y, angle, size);
 			} else {
