@@ -3,11 +3,7 @@ import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
     kit: {
-        adapter: adapter({
-            pages: 'public',
-            assets: 'public',
-            fallback: '404.html' 
-        }),
+        adapter: adapter(),
         
         // Opcional: Se for usar GitHub Pages COM subpasta (ex: thomika1.github.io/portfolio),
         // você precisaria configurar o 'paths' aqui. 
