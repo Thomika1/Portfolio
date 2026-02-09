@@ -4,7 +4,6 @@
 	import Header from "$lib/components/Header.svelte";
 	import VectorArrows from "$lib/components/VectorArrows.svelte";
 	import "../app.css";
-	export const prerender = true;
 	
 	let { children } = $props();
 	let y = $state(0);
