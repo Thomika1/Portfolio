@@ -1,9 +1,11 @@
+
 <script lang="ts">
 	import Footer from "$lib/components/Footer.svelte";
 	import Header from "$lib/components/Header.svelte";
 	import VectorArrows from "$lib/components/VectorArrows.svelte";
 	import "../app.css";
-
+	export const prerender = true;
+	
 	let { children } = $props();
 	let y = $state(0);
 	let innerHeight = $state(0);
@@ -35,8 +37,8 @@
 	</div>
 	<Header {y} />
 	{@render children()}
-	<Footer />
 	<VectorArrows />
 </div>
+<Footer />
 
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />

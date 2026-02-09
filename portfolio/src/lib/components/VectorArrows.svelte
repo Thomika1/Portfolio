@@ -56,7 +56,7 @@
 		ctx.translate(x, y);
 		ctx.rotate(angle);
 		
-		ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+		ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
 		ctx.beginPath();
 		
 		const arrowLength = size;
@@ -78,7 +78,7 @@
 
 	function drawCircle(x: number, y: number, size: number) {
 		if (!ctx) return;
-		ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+		ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
 		ctx.beginPath();
 		ctx.arc(x, y, size, 0, Math.PI * 2);
 		ctx.fill();
