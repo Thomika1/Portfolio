@@ -4,8 +4,8 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
     kit: {
         adapter: adapter({
-            // Cria um arquivo 404.html para redirecionar rotas inexistentes
-            // Isso permite que o roteamento via JavaScript (SPA) funcione
+            pages: 'public',
+            assets: 'public',
             fallback: '404.html' 
         }),
         
