@@ -7,6 +7,11 @@
             icon: "fa-solid fa-coins",
             href: "https://github.com/Thomika1/rinha-2025",
         },
+        {
+            name: "Chargeback API - Tupi Fintech - <span class='text-violet-400'>closed source</span>",
+            icon: "fa-solid fa-arrow-rotate-left",
+            href: "https://www.linkedin.com/company/tupifintech/posts/?feedView=all",
+        },
     ];
 
     let benefits = [
@@ -45,7 +50,10 @@
                 > Student
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My favotire stack is Golang
+                My favorite technologies are those that allow me to build
+                scalable and efficient applications. I am always eager to
+                explore new technologies and improve my skills. Currently, I am
+                learning Rust and working with Go at my current job.
             </p>
             <a
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
@@ -116,6 +124,30 @@
                     for massive concurrency. Implemented strict data consistency
                     with failover logic, achieving low p99 latency using the
                     <strong class="text-violet-400">Sonic</strong> parser.
+                </p>
+                <p>
+                    <strong class="text-violet-400"
+                        >Cool diagram of the architecture in the repo!</strong
+                    >
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>
+                    Helped engineer a robust microservice in <strong
+                        class="text-violet-400">Go (Golang)</strong
+                    >
+                    to automate the lifecycle of credit card chargebacks.
+                    Implemented complex integrations with the
+                    <strong class="text-violet-400">Rede</strong>
+                    acquirer, featuring
+                    <strong class="text-violet-400">OAuth2</strong>
+                    authentication and
+                    <strong class="text-violet-400">ETL</strong>
+                    synchronization jobs. Developed a "Collaborative
+                    Dispute" module, enabling merchants to submit defense
+                    documents via secure
+                    <strong class="text-violet-400">Magic Links</strong>,
+                    eliminating the need for traditional authentication.
                 </p>
             </Step>
         </div>
